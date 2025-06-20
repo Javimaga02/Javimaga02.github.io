@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Página principal</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      background: linear-gradient(-45deg, #ff6ec4, #7873f5, #4ade80, #facc15);
+      background-size: 400% 400%;
+      animation: animarFondo 10s ease infinite;
+      color: white;
+      font-family: sans-serif;
+      position: relative;
+    }
+
+    @keyframes animarFondo {
+      0% { background-position: 0% 50%; }
+      50% { background-position: 100% 50%; }
+      100% { background-position: 0% 50%; }
+    }
+
+    h1 {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: white;
+      font-family: Arial, sans-serif;
+      font-size: 50px;
+      text-align: center;
+    }
+
+    .enlaces {
+      position: absolute;
+      top: 30px;
+      left: 20px;
+    }
+
+    .texto {
+      font-size: 18px;
+      margin: 5px 0;
+    }
+
+    .texto a {
+      color: white;
+      font-size: 40px;
+      text-decoration: none;
+      padding-bottom: 2px;
+    }
+
+    .texto a:hover {
+      text-decoration: underline;
+      border-bottom-color: #facc15;
+    }
+
+    .nombres {
+      position: absolute;
+      bottom: 20px;
+      right: 20px;
+      text-align: right;
+      font-size: 20px;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="enlaces">
+    <p class="texto"><a href="descripcion.html">Todo sobre el PEC</a></p>
+    <p class="texto"><a href="proceso.html">Proceso del PEC</a></p>
+    <p class="texto"><a href="evidencias.html">Evidencias del PEC</a></p>
+  </div>
+
+  <h1>Bienvenid@ a la página principal</h1>
+
+  <div class="nombres">
+    <p>INTEGRANTES DEL EQUIPO:</p>
+    <p>Axel Javier Gutierrez Magallanes</p>
+    <p>Alan Eduardo Leon Merino</p>
+    <p>Juan Antonio Moreno Santana</p>
+    <p>Dominic Nicolas Rojo Ojeda</p>
+  </div>
+
+</body>
+</html>
